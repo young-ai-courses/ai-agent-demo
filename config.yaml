@@ -1,0 +1,10 @@
+feeds:
+  - name: GitHub Blog
+    url: https://github.blog/feed/
+  - name: HuggingFace Blog
+    url: https://huggingface.co/blog/feed.xml
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+
+output:
+  dir: reports/weekly
