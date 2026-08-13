@@ -1,0 +1,26 @@
+# 這就是 CI（持續整合）—— 每次 push，GitHub 自動檢查「這份 code 還 build 得起來嗎」
+#
+# 為什麼需要它：AI 幫你改 code 有時會改壞。有這個檔，壞掉的 code 一 push 上來
+# GitHub 就標紅叉，你當下就知道 —— 而不是等 Vercel 部署失敗、
+# 或使用者打開網站看到白畫面才發現
+#
+# CD（持續部署）那半由 Vercel 負責：repo 一連上 Vercel，push 就自動部署
+
+name: CI
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install
+      # build 不需要真的 key —— 沒有 key 也要 build 得過（key 只在執行期才用到）
+      - run: npm run build
