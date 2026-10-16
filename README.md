@@ -57,3 +57,7 @@ npm run dev          # 沒有 key 也打得開，只是問答會回「還沒設�
 3. 從學員的 fork 開始，現場走一次：Import → 加 key → Deploy → 打開網址
 4. 接 Supabase → 按「同步到資料庫」→ 資料來源從「檔案」變成「資料庫」
 5. 最後回到問答：跨兩週問一次，指出它的每個說法都對得到某一篇文章
+
+---
+
+授權：本教材採 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)，可分享、改作，須標示來源，不可商用｜© 2026 睿度科技有限公司 Redutek Co., Ltd.（見 [LICENSE](LICENSE)）
