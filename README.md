@@ -60,4 +60,4 @@ npm run dev          # 沒有 key 也打得開，只是問答會回「還沒設�
 
 ---
 
-授權：本教材採 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)，可分享、改作，須標示來源，不可商用｜© 2026 睿度科技有限公司 Redutek Co., Ltd.（見 [LICENSE](LICENSE)）
+授權：本教材採 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)，可分享、改作，須標示來源，不可商用｜著作權人：睿度科技有限公司 Redutek Co., Ltd.（Copyright (c) 2026，條文見 [LICENSE](LICENSE)）
